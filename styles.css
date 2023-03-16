@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  height: 100px;
+  padding: 8px;
+}
+
+.profile-pic {
+  background-color: rebeccapurple;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.left,
+.right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.logo {
+  color: rebeccapurple;
+  font-weight: 900;
+  font-size: 60px;
+  font-style: italic;
+}
+
+button {
+  background-color: rebeccapurple;
+  color: white;
+  border: none;
+  padding: 8px 24px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rebeccapurple;
+  
+}
